@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo Salgado - Web / UI Designer</title>
+    <!-- Aquí están los estilos CSS para el Hero Block -->
+    <style>
+        /* Estilo para el contenedor principal (el header) */
+        header {
+            /* Aquí pones la ruta de tu imagen. Asegúrate de que la ruta sea correcta */
+            background-image: url('assets/img/pexels-pixabay-265129.jpg'); 
+            
+            /* Ajustes para que la imagen se vea bien */
+            background-size: cover;      /* La imagen cubre todo el espacio */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat;
+            
+            /* Tamaño del bloque */
+            height: 100vh;               /* Ocupa el 100% de la altura de la pantalla */
+            width: 100%;
+            
+            /* Flexbox para centrar el contenido (texto) */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;     /* Centrado vertical */
+            align-items: center;         /* Centrado horizontal */
+            
+            /* Color de texto blanco para que resalte sobre la foto */
+            color: white;
+            text-align: center;
+            
+            /* Opcional: una capa oscura semitransparente para que el texto se lea mejor */
+            position: relative;
+        }
+
+        /* Estilo para el título (Tu nombre) */
+        header h1 {
+            font-size: 4rem; /* Tamaño grande */
+            margin: 0;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Sombra para mejorar legibilidad */
+        }
+
+        /* Estilo para el subtítulo (Web / UI Designer) */
+        header h2 {
+            font-size: 2rem;
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-weight: normal;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Aquí va tu contenido de texto -->
+        <h1>Danilo Salgado</h1>
+        <h2>Web / UI Designer</h2>
+        
+        <!-- NOTA: He eliminado la etiqueta <img> porque ahora la imagen es el fondo del header -->
+    </header>
+
+    <main>
+        <section>
+            <p>Welcome to my personal webpage! I'm a passionate web developer with a love for creating engaging and user-friendly websites.</p>
+            
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="exercises/soccer.html">Soccer Players</a></li>
+                <li><a href="exercises/laptops.html">Laptops</a></li>
+                <li><a href="exercises/page-1.html">A Tale of Two Cities</a></li>
+                <li><a href="exercises/page-2.html">Purple Rain</a></li>
+                <li><a href="exercises/page-3.html">Web Page with Sections</a></li>
+                <li><a href="exercises/page-4.html">Vincent van Gogh</a></li>
+                <li><a href="exercises/page-5.html">Irish Tourism</a></li>
+                <li><a href="exercises/hero-text.html">Hero Block with Text</a></li>
+                <li><a href="exercises/hero-image.html">Hero Block with Image</a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
